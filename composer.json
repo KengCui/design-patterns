@@ -1,0 +1,17 @@
+{
+    "name": "ck/design-patterns",
+    "description": "PHP Design Patterns",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "design\\patterns\\": "",
+            "design\\patterns\\behavioral\\observer\\spl\\" : "behavioral/observer-spl/",
+            "design\\patterns\\behavioral\\observer\\construct\\" : "behavioral/observer-construct/"
+        }
+    }
+}
